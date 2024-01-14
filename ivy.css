@@ -1,0 +1,176 @@
+#dwivy {
+	width: 620px;
+	height: var(--ivyhgt);
+	background: var(--ivybg1);
+	background-repeat: repeat;
+	background-attachment:fixed;
+	margin: auto;
+	--ivyhgt: auto;
+	--ivybg1: url('https://images.unsplash.com/photo-1589049216803-a40738dfef85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+	--ivybg2: #131313;
+	--ivybg3: #0B0A0B;
+	--ivycolor1: #FBA914;
+	--ivycolor2: #FB9314;
+	--ivycolor3: #FFBC44;
+	--ivycolor4: #424242;
+	--ivyfont1: 'Philosopher';
+	--ivyfont2: 'Nothing You Could Do';
+	--ivyfont3: 'Calibri';
+	display: flex;
+}
+
+#dwivy #ivy1 {
+	width: 140px;
+	height: var(--ivyhgt);
+	display: flex;
+	flex-direction:column;
+}
+
+#dwivy .ivyft {
+	width: 140px;
+	height: 140px;
+}
+
+#dwivy .ivyft img {
+	width: 125px;
+	height: 125px;
+	border: 5px double var(--ivycolor1);
+	border-radius: 100px;
+	object-fit: cover;
+	margin: 3px;
+}
+
+#dwivy #ivy2 {
+	width: 480px;
+	height: var(--ivyhgt);
+	background: var(--ivybg2);
+}
+
+#dwivy .ivytt {
+	width: 440px;
+	height: 60px;
+	background: var(--ivybg3);
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-family: var(--ivyfont1);
+	font-weight: bold;
+	text-transform: uppercase;
+	color: var(--ivycolor1);
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 16px;
+}
+
+#dwivy .ivysub {
+	width: 450px;
+	padding: 5px;
+	height: var(--ivyhgt);
+	margin: 10px;
+	background: var(--ivybg3);
+	text-align: center;
+}
+
+#dwivy .ivysub t {
+	font-family: var(--ivyfont1);
+	font-size: 10px;
+	font-weight: bold;
+	color: var(--ivycolor1); 
+	text-transform: uppercase;
+	padding: 3px;
+	margin: 5px;
+	background: var(--ivybg3);
+	letter-spacing: 0.5px;
+}
+
+#dwivy .ivysub t::before {
+	content: '#';
+	margin-right: 5px;
+}
+
+#dwivy #ivy3 {
+	width: 460px;
+	height: var(--ivyhgt);
+	margin: 10px;
+	background: var(--ivybg3);
+}
+
+#dwivy .ivyqt {
+	height: var(--ivyhgt);
+	padding: 10px;
+	text-align: right;
+	font-family: var(--ivyfont1);
+	font-size:11px;
+	color: var(--ivycolor1);
+	letter-spacing: 0.5px;
+	font-style: italic;
+	line-height: 12px;
+}
+
+#dwivy .ivytxt {
+	padding: 20px;
+	background: var(--ivybg3);
+	font-family: var(--ivyfont3);
+	font-size: 14.5px;
+	color: var(--ivycolor4);
+	text-align: justify;
+	line-height: 16px;
+	letter-spacing: 0.3px;
+}
+
+#dwivy .ivytxt::first-letter {
+	float: left;
+	padding: 15px;
+	font-family: var(--ivyfont1);
+	font-size: 40px;
+	text-transform: uppercase;
+	color: var(--ivycolor1);
+	font-weight: none;
+}
+
+
+#dwivy .ivytxt f {color: var(--ivycolor1);}
+#dwivy .ivytxt t {color: var(--ivycolor3); font-style: italic;}
+#dwivy .ivytxt n {font-family: var(--ivyfont2); color: var(--ivycolor2); font-size: 18px; letter-spacing: 0.3px; line-height: 20px;
+}
+
+#dwivy #ivy4 {
+	width:440px;
+	padding: 10px;
+	margin: 10px;
+	background: var(--ivybg3);
+	text-align: center;
+}
+
+#dwivy #ivy4 a {
+	font-family: var(--ivyfont1);
+	font-size: 13px;
+	color: var(--ivycolor1);
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+/********** FONTS **********/
+
+/* latin */
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/philosopher/v19/vEFV2_5QCwIS4_Dhez5jcWBuT00.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Nothing You Could Do';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nothingyoucoulddo/v19/oY1B8fbBpaP5OX3DtrRYf_Q2BPB1SnfZb3OOnVs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
